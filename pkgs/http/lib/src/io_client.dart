@@ -67,7 +67,7 @@ class IOClient extends BaseClient {
 
       var headers = <String, String>{};
       response.headers.forEach((key, values) {
-        headers[key] = values.join(',');
+        headers[key] = values.join('6789sep9876');
       });
 
       return IOStreamedResponse(
